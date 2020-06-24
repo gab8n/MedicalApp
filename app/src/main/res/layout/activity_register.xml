@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/button_tv_layout"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/edit_texts_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/cNPRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="CNP"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="false"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.279" />
+
+                <EditText
+                    android:id="@+id/ciprintRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="CI Eliberat De"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.69" />
+
+                <EditText
+                    android:id="@+id/registerNameTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Nume"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.06" />
+
+                <EditText
+                    android:id="@+id/phoneRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Telefon"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.491" />
+
+                <EditText
+                    android:id="@+id/adressRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Adresa"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.59" />
+
+                <EditText
+                    android:id="@+id/serieNrRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Serie/Nr"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.384" />
+
+                <EditText
+                    android:id="@+id/lastNameRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Prenume"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.168" />
+
+                <EditText
+                    android:id="@+id/sRlNameRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="Nume Firma"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.179"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.957" />
+
+                <EditText
+                    android:id="@+id/cUIRegisterTextBox"
+                    android:layout_width="239dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:fontFamily="@font/aclonica"
+                    android:hint="CUI"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.179"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.86" />
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/button_tv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/persoanaJuridicaTextBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toStartOf="@+id/confirmRegisterButton"
+                android:layout_toLeftOf="@+id/confirmRegisterButton"
+                android:fontFamily="@font/aclonica"
+                android:text="Persoana Juridica"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.782" />
+
+            <Button
+                android:id="@+id/confirmRegisterButton"
+                android:layout_width="99dp"
+                android:layout_height="57dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/custom_button"
+                android:text="Confirma"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.51" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

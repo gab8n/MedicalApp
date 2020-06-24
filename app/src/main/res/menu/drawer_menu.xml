@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item android:title="General"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Acasa" />
+            <item
+                android:id="@+id/another"
+                android:icon="@drawable/ic_baseline_mood_24"
+                android:title="Profil"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Verifica Stare">
+        <menu>
+            <item
+                android:id="@+id/home1"
+                android:icon="@drawable/ic_baseline_apps_24"
+                android:title="Generare Profil QR"
+                />
+            <item
+                android:id="@+id/another1"
+                android:icon="@drawable/ic_baseline_camera_24"
+                android:title=" Verificare"
+
+                />
+        </menu>
+    </item>
+</menu>
